@@ -1,4 +1,14 @@
 Your Favourite Football Player User Guide:
 
+My React App is designed to allow users to create Posts about their favourite football players. On localhost:3000 you will see the react app where the details can be added. On localhost:5000/posts you can see the backend server where the posts are stored. The posts are also stored on a remote MongoDB database. To start the Application you enter the 'Server' folder and do an NPM Start. This will start the localhost:5000. Then split the terminal and go to the folder 'Client' and also run an NPM Start to launch the localhost:3000.
+
+On the application page you will a form on the right handside of the screen where the details of the player are entered and when you click the submit button it will create the post on the left handside showing the details of what the user entered and when it was created. The clear button is used to clear all the information that is currently in the form. When the details are filled in and the submit button is pressed, the details of the Post are sent to the MongoDB database where they are stored.
+
+If you want to edit a Post you simply go to the three dots in the top right of the Post and click. This will reenter all the details of the Post back in to the Form on the right. You will also see the title of the Form changes from 'Your Favourite Player' to 'Editing Your Favourite Player'. You may then chnage the details and submit to update the post. There is also a Delete button at the bottom of the Posts. I added the @material-ui/icons package to the App to have a bin as the Delete button icon and the three dots for the Edit icon. When a post is deleted, it is also deleted from the MongoDB. 
+
+Project References:
+Martin Kenirons – Online & In class Notes - GMIT Learnonline
+JavaScript Mastery - Online Video Tutorials - https://www.youtube.com/c/JavaScriptMastery
+
 
  
